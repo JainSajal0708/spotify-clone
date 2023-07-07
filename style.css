@@ -1,10 +1,20 @@
 body{
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
 *{
     margin: 0;
     padding: 0;
 }
 nav{
-    
+    font-family: 'ubuntu',sans-serif;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    height: 40px;
+    background-color: black;
+}
+.brand img{
+    width: 40px;
+
 }
