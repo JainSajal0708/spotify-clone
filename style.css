@@ -1,5 +1,5 @@
 body{
-    background-color: whitesmoke;
+    background-color: antiquewhite;
 }
 *{
     margin: 0;
@@ -28,4 +28,72 @@ nav ul li{
     align-items: center;
     font-weight: bolder;
     font-size: 1.2rem;
+}
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: black;
+    font-family: 'Varela Round' sans-serif;
+    display: flex;
+    margin: 8px auto;
+    width: 60%;
+    border-radius: 12px;
+    padding: 22px;
+    background-image: url(/Images/images.jpg);
+    
+}
+.bottom{
+    position: sticky;
+    height: 75px;
+    background-color: black;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myprogressbar{
+    width: 80vw;
+    text-align: center;
+    cursor: pointer;
+}
+.songItemcontainer{
+    margin-top: 34px;
+}
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    color: black;
+    margin: 12px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+}
+.songItem img{
+    width: 43px;
+    margin: 0 23px;
+    border-radius: 34px;
+}
+.timestamp{
+    margin: 0 23px;
+    cursor: pointer;
+}
+#size{
+    height: 24px;
+}
+.songinfo{
+    position: absolute;
+    left: 9vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity is ease-in;
 }
